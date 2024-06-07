@@ -29,7 +29,7 @@ header h1{
     font-family: var(--fonte2);
     color: white;
     font-variant: small-caps;
-    font-size: 7em;
+    font-size: 10vw;
     font-weight: bolder;
     margin-bottom: 10px;
 }
@@ -67,8 +67,12 @@ section{
     padding-bottom: 10vh;
     padding-left: 30px;
     font-family: var(--fonte3);
-    font-size: 3em;
+    font-size: 3vw;
     line-height: 2em;
+}
+
+section > p{
+    padding-bottom: 2em;
 }
 
 section.imagem{
